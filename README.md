@@ -1,12 +1,12 @@
 # amplitrop
 
-This repository contains accompanying software to the paper 'Tropicalized quantum field theory and global tropical sampling' by Michael Borinsky.
+This repository contains accompanying computer code to the paper 'Tropicalized quantum field theory and global tropical sampling' by Michael Borinsky.
 
 
 Installation
 --
 
-To download, compile and run the code, git and a C++ compiler are needed.
+To download, compile and run the code, [git](https://git-scm.com/) and [gcc](https://gcc.gnu.org/), a C++ compiler are needed. The locally installed g++ compiler should support [OpenMP](https://www.openmp.org/).
 
 To download the repository, run
 
