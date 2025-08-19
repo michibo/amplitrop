@@ -2,7 +2,6 @@
 
 This repository contains accompanying computer code to the paper 'Tropicalized quantum field theory and global tropical sampling' by Michael Borinsky.
 
-
 Installation
 --
 
@@ -34,4 +33,3 @@ The parameter -k sets the k in phi^k, -D sets the dimension, -n sets the multipl
 Analogously, to evaluate the primitive contribution to the phi^4 theory beta function at 10 loops, run
 
 ``./amplitrop -k4 -D4 -n4 --prim -L10 -N1000000``
-
