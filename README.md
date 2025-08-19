@@ -5,17 +5,17 @@ This repository contains accompanying computer code to the paper 'Tropicalized q
 Installation
 --
 
-To download, compile and run the code, [git](https://git-scm.com/) and [gcc](https://gcc.gnu.org/), a C++ compiler are needed. The locally installed g++ compiler should support [OpenMP](https://www.openmp.org/).
+To download, compile and run the code the [git](https://git-scm.com/) program and [gcc](https://gcc.gnu.org/), a C++ compiler are needed. Your locally installed g++ compiler should support [OpenMP](https://www.openmp.org/).
 
 To download the repository, run
 
 ``git clone https://github.com/michibo/amplitrop.git``
 
-This code uses the submodules, [Eigen](https://eigen.tuxfamily.org/), [cxxopts](https://github.com/jarro2783/cxxopts), [xsum](https://github.com/yafshar/xsum), and [JSON](https://github.com/nlohmann/json). To download these automatically submodules run
+This code uses the submodules [Eigen](https://eigen.tuxfamily.org/), [cxxopts](https://github.com/jarro2783/cxxopts), [xsum](https://github.com/yafshar/xsum), and [JSON](https://github.com/nlohmann/json). To download these automatically, run
 
 ``cd amplitrop && git submodule update --init --recursive``
 
-If the code is downloaded directly and not via git, then the submodules have to be downloaded manually in the `extern` folder.
+If the code is downloaded directly (i.e. not via git), then the submodules have to be downloaded or cloned manually into the `extern` folder.
 
 To compile the code, run
 
