@@ -12,9 +12,11 @@ To download the repository, run
 
 ``git clone https://github.com/michibo/amplitrop.git``
 
-This code uses the submodules, [Eigen](https://eigen.tuxfamily.org/), [cxxopts](https://github.com/jarro2783/cxxopts), [xsum](https://github.com/yafshar/xsum), and [JSON](https://github.com/nlohmann/json). To download these submodules run
+This code uses the submodules, [Eigen](https://eigen.tuxfamily.org/), [cxxopts](https://github.com/jarro2783/cxxopts), [xsum](https://github.com/yafshar/xsum), and [JSON](https://github.com/nlohmann/json). To download these automatically submodules run
 
 ``cd amplitrop && git submodule update --init --recursive``
+
+If the code is downloaded directly and not via git, then the submodules have to be downloaded manually in the `extern` folder.
 
 To compile the code, run
 
