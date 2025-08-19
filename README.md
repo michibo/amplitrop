@@ -20,7 +20,7 @@ To compile the code run
 
 To evaluate the massive phi^3 theory 3-point function in D=3 at 10 loops run
 
-``amplitrop -k3 -D3 -n3 -L10 -N10000000``
+``./amplitrop -k3 -D3 -n3 -L10 -N10000000``
 
 The parameter -k sets the k in phi^k, -D sets the dimension, -n sets the multiplicity, -L sets the loop number, and -N fixes the number of sample points to evaluate.
 
