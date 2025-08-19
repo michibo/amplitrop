@@ -62,7 +62,7 @@ int main(int argc, char** argv)
           ("k", "k in phi^k-theory", cxxopts::value<int>())
           ("D", "Dimension D", cxxopts::value<int>())
           ("L", "Loop order", cxxopts::value<int>())
-          ("S", "Seed", cxxopts::value<long long>()->default_value("0"))
+          ("S", "Seed", cxxopts::value<long long>()->default_value("31415926"))
           ("prim", "Primitive", cxxopts::value<bool>()->default_value("false"))
         ;
 
