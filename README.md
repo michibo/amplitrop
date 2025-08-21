@@ -1,6 +1,6 @@
 # amplitrop
 
-This repository contains accompanying computer code to the paper 'Tropicalized quantum field theory and global tropical sampling' by Michael Borinsky.
+This repository contains accompanying computer code to the paper ['Tropicalized quantum field theory and global tropical sampling'](https://arxiv.org/abs/2508.14263) by Michael Borinsky.
 
 Installation
 --
