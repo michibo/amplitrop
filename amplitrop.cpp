@@ -8,16 +8,16 @@
  * License: MIT License (see LICENSE file for details)
  * If you use this code in your research, please cite the paper
  * 'Tropicalized quantum field theory and global tropical sampling' 
- * by Michael Borinsky
+ * by Michael Borinsky https://arxiv.org/abs/2508.14263
  */
 
 
 #include <cxxopts.hpp>
 
-#include <nlohmann/json.hpp>
+#include <json.hpp>
 using json = nlohmann::json;
 
-#include <xsum/xsum/xsum.hpp>
+#include <xsum/xsum.hpp>
 
 #include <chrono>
 

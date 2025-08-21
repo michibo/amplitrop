@@ -7,7 +7,7 @@ RM = rm -f
 LN = ln -f
 
 CXXFLAGS+= -fopenmp
-CXXFLAGS+= -Iextern/eigen -Iextern/cxxopts/include -Iextern -Iextern/json/include
+CXXFLAGS+= -Iextern
 CXXFLAGS+= -std=c++17
 CXXFLAGS+= -ffast-math -funsafe-math-optimizations -fno-finite-math-only -O3
 CXXFLAGS+= -DNDEBUG
