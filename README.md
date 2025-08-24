@@ -5,7 +5,7 @@ This repository contains accompanying computer code to the paper ['Tropicalized 
 Installation
 --
 
-To download, compile and run the code the [git](https://git-scm.com/) program and [gcc](https://gcc.gnu.org/), a C++ compiler are needed. Your locally installed g++ compiler should support [OpenMP](https://www.openmp.org/).
+To download, compile and run the code the [git](https://git-scm.com/) program and [gcc](https://gcc.gnu.org/), a C++ compiler are needed, which should support [OpenMP](https://www.openmp.org/).
 
 To download the repository, run
 
